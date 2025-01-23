@@ -78,7 +78,7 @@ a:hover {
 }
 
 p {
-    color: var(--p-color) !important;
+    color: white;
     font-size: 16px;
     font-weight: var(--font-weight-light);
 }
@@ -1148,7 +1148,7 @@ h6 {
                                                         /*    SECTION FOOTER */
 
 .site-footer {
-    background-color: #44525d;
+    background-color: #f0f8ff;
     padding-top: 70px;
 }
 
@@ -1165,7 +1165,7 @@ h6 {
 
 .site-footer .footer-menu .footer-menu-link {
     font-size: 16px;
-    color: var(--white-color);
+    color: white;
     display: inline-block;
     vertical-align: middle;
     margin-right: 10px;
@@ -1175,7 +1175,7 @@ h6 {
 .site-footer p,
 .site-footer i,
 .site-footer a {
-    color: var(--white-color) !important;
+    color: grey;
     font-size: 15px;
 }
 
