@@ -557,7 +557,7 @@ h6 {
 .about-section .about-image {
     border-radius: 20px;
     display: block;
-    width: 350px;
+    width: 500px;
     height: 400px;
     object-fit: cover;
 }
@@ -724,6 +724,8 @@ h6 {
     background-color: var(--primary-color);
     color: var(--white-color) !important;
 }
+
+
 
 
                                                             /*    SECTION VOLUNTEER */
