@@ -2,28 +2,15 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ANCOP Bermuda-News</title>
-    <link rel="stylesheet" href="css/ancpabda.css">
-    <link rel="stylesheet" href="css/news.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="css/bootstrap-icons.css" type="text/css">
-
-</head>
-
-<body>
-    <!-- HEADER SECTION -->
-<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ANCOP Bermuda</title>
   <!-- CSS FILES -->
-  <link rel="stylesheet" href="css/ancpbda.css" type="text/css">
-  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-  <link rel="stylesheet" href="css/bootstrap-icons.css" type="text/css">
+  <link rel="stylesheet" href="../css/ancpbda.css" type="text/css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="../css/bootstrap-icons.css" type="text/css">
 
-  <link rel="shortcut icon" type="image/png" href="favicon-32x32.png">
+  <link rel="shortcut icon" type="../images/png" href="favicon-32x32.png">
 
 </head>
 
@@ -39,11 +26,10 @@
             Hamilton, Bermuda
 
           </p>
-
-          <p class="d-flex mb-0">
+<!--       <p class="d-flex mb-0">
             <i class="bi-envelope me-2"></i>
-            <a href="#">caseweb84729@gmail.com</a>
-          </p>
+            <a href="#">example@gmail.com</a>
+          </p> -->
         </div>
 
         <div class="col-lg-3 ms-auto col-12 d-lg-block d-none ">
@@ -64,8 +50,8 @@
 
   <nav class="navbar navbar-expand-lg bg-light shadow-lg" >
     <div class="container-sm">
-      <a class="navbar-brand" href="index.html">
-        <img src="images/ancop-logo.png" class="logo img-fluid" alt="ANCOP Bermuda">
+      <a class="navbar-brand" href="#">
+        <img src="../images/ancop-logo.png" class="logo img-fluid" alt="ANCOP Bermuda">
         <span>ANCOP Bermuda - UNDER CONSTRUCTION
         <small>Answering the cry of the poor</small>
         </span>
@@ -80,26 +66,26 @@
             <a class="nav-link click-scroll active" href="#top">Home</a>
 -->          </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html#section-2">Who We Are</a>
+            <a class="nav-link" href="#section-2">Who We Are</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html#section-3">What We Do</a>
+            <a class="nav-link" href="#section-3">What We Do</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html#section-4">Volunter</a>
+            <a class="nav-link" href="#section-4">Blog</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link click-scroll dropdown-toggle inactive" href="index.html#section-5" id="navbarLightDropdownMenuLink"
+ <!--         <li class="nav-item dropdown">
+            <a class="nav-link click-scroll dropdown-toggle inactive" href="#section-5" id="navbarLightDropdownMenuLink"
               role="button" data-bs-toggle="dropdown" aria-expanded="false">
               News
             </a>
             <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
               <li><a class="dropdown-item" href="news.html">News Listing</a></li>
               <li><a class="dropdown-item" href="news-detail.html">News Detail</a></li>
-            </ul>
+            </ul> -->
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="index.html#section-6">Contact</a>
+            <a class="nav-link " href="#section-6">Contact</a>
           </li>
           <li class="nav-item ms-3">
             <a class="nav-link custom-btn btn custom-border-btn inactive" href="donate.html">Donate</a>
@@ -110,28 +96,46 @@
     </div>
   </nav>
 
+  <!-- SECTIONS -->
+ 
+ 
     <!-- SECTION -->
     <main>
         <!-- NEWS SECTION -->
+        <section class="news-detail-section text-center">
+            <div class="section-overlay"></div>
+            <div class="container-sm">
+                <div class="row">
+                    <div class="col-lg-12 col-12 align-items-center">
+                        <h1>News Details</h1>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+ 
+ <main>
+
+    <!--Blog -->
 
     <section class="section-padding news-section" id="section-5">
       <div class="container-sm">
         <div class="row">
           <div class="col-lg-12 col-12 mb-5">
-            <h2>Latest News</h2>
+            <h2>Blog Posts</h2>
           </div>
 
           <div class="col-lg-6 col-12">
             <div class="news-block">
               <div class="news-block-top">
                 <a href="news-detail.html">
-                  <img class="news-iamge img-fluid" src="images/news/ancop-victor-scott-bench-painting.jpg"
+                  <img class="news-iamge img-fluid" src="../images/news/ancop-victor-scott-bench-painting.jpg"
                     alt="ancop-victor-scott-bench-painting">
                 </a>
                 <div class="news-category-block">
-                  <a href="#" class="category-block-link">
-                    Helping the community: Victor Scott Primary School
-                  </a>
+                  <p>Helping the community: Victor Scott Primary School</p>
+		       
+                  
  <!--                 <a href="#" class="category-block-link">
 
                     Victor Scott Primary School
@@ -140,8 +144,8 @@
                 </div>
               </div>
               <div class="news-block-info">
-                <div class="d-flex mt-2">
-                  <div class="news-block-date">
+<!--               <div class="d-flex mt-2">
+               <div class="news-block-date">
                     <p>
                       <i class="bi-calendar4 custom-icon me-1"></i>
 
@@ -161,37 +165,36 @@
                       Comments
                     </p>
                   </div>
-                </div>
+                </div> -->
                 <div class="news-block-title mb-2">
-                  <h4>
                     <a href="news-detail.html" class="news-block-title-link">ANCOP Volunteers Bring Color and care
 					 to Victor Scott Primary School
                   </h4>
+				  <h4>
                 </div>
 
                 <div class="news-block-body">
+				<p style="color:grey" class="bi-calendar4 custom-icon me-1"> January 04, 2025</p>
                   <p style="color:grey">ANCOP volunteers bring community spirit, generosity to Victor Scott Primary School. Their 
 				  initiative is a testament to ANCOP's commitment to service, and the benches have become vibrant
-				  additions to the campus, making the space feel more welcoming for students, staffs and visitors alike.</p>
-
+				  additions to the campus, making the space feel more welcoming for students, staffs and visitors alike.<br><br><br></p>
+			
                 </div>
 
               </div>
 
             </div>
+
             <div class="news-block">
               <div class="news-block-top">
                 <a href="news-detail.html">
-                  <img class="news-iamge img-fluid" src="images/news/ancop-volunteers-pga-tour-2024.jpg"
+                  <img class="news-iamge img-fluid" src="../images/news/ancop-volunteers-pga-tour-2024.jpg"
                     alt="medium-shot-people-collecting-foodstuff">
                 </a>
                 <div class="news-category-block">
-                  <a href="#" class="category-block-link">
-
-                    ANCOP Volunteers at the 2024 PGA Tour
-                  </a>
+                  <p>ANCOP Volunteers at the 2024 PGA Tour</p>
+  
   <!--                <a href="#" class="category-block-link">
-
 
                     Donation,
 
@@ -202,7 +205,7 @@
                 </div>
               </div>
               <div class="news-block-info">
-                <div class="d-flex mt-2">
+ <!--               <div class="d-flex mt-2">
                   <div class="news-block-date">
                     <p>
                       <i class="bi-calendar4 custom-icon me-1"></i>
@@ -223,7 +226,7 @@
                       Comments
                     </p>
                   </div>
-                </div>
+                </div> -->
                 <div class="news-block-title mb-2">
                   <h4>
                     <a href="news-detail.html" class="news-block-title-link">ANCOP volunteers at the Butterfield Bermuda Championship, PGA Tour 2024</a>
@@ -231,6 +234,7 @@
                 </div>
 
                 <div class="news-block-body">
+				<p style="color:grey" class="bi-calendar4 custom-icon me-1"> November 16, 2024</p>
                   <p style="color:grey">Volunteering at the PGA Tour provides ANCOP with the oppurtunity to give back to the community,
 				   foster new relationships, and be part of a world class sporting event. The volunteers' efforts are instrumental
 				   in the tournament's success and in raising funds for various charity programs of ANCOP</p>
@@ -254,7 +258,7 @@
             <div class="news-block news-block-two-col mt-4 d-flex">
               <div class="news-block-two-col-image-wrap">
                 <a href="news-detail.html">
-                  <img class="news-iamge img-fluid" src="images/news/ancop-walk1.jpg"
+                  <img class="news-iamge img-fluid" src="../images/news/ancop-walk1.jpg"
                     alt="ancop-walk">
                 </a>
 
@@ -262,15 +266,10 @@
 
               <div class="news-block-two-col-info">
                 <div class="news-block-title mb-3">
-                  <h6>
-                    <a href="news-detail.html" class="news-block-title-link">ANCOP Walk</a>
-                  </h6>
-                </div>
-                <div class="news-block-date mb-3">
-                  <p>
-                    <i class="bi-calendar4 custom-icon me-1"></i>
-                     September 24, 2024
-                  </p>
+                  <h5>
+                    <a href="news-detail.html" class="news-block-title-link">ANCOP Walk 2024</a>
+                  </h5>
+				  <p style="color:grey" class="bi-calendar4 custom-icon me-1"> January 04, 2025</p>
                 </div>
 
               </div>
@@ -278,26 +277,37 @@
             <div class="news-block news-block-two-col mt-4 d-flex">
               <div class="news-block-two-col-image-wrap">
                 <a href="news-detail.html">
-                  <img class="news-iamge img-fluid" src="images/news/ancop-housing-program.jpg"
+                  <img class="news-iamge img-fluid" src="../images/news/ancop-housing-program.jpg"
                     alt="ancop-housing-program"></a>
-
               </div>
 
               <div class="news-block-two-col-info">
                 <div class="news-block-title mb-3">
                   <h6>
-                    <a href="news-detail.html" class="news-block-title-link">Housing Program</a>
+                    <a href="news-detail.html" class="news-block-title-link">Building Houses for the Poor</a>
                   </h6>
+				  <p style="color:grey" class="bi-calendar4 custom-icon me-1">September 14, 2024</p>
                 </div>
-                <div class="news-block-date mb-3">
-                  <p>
-                    <i class="bi-calendar4 custom-icon me-1"></i>
-                    September 14, 2024
-                  </p>
-                </div>
-
               </div>
             </div>
+			
+			         <div class="news-block news-block-two-col mt-4 d-flex">
+              <div class="news-block-two-col-image-wrap">
+                <a href="news-detail.html">
+                  <img class="news-iamge img-fluid" src="../images/news/ancop-housing-program.jpg"
+                    alt="ancop-housing-program"></a>
+              </div>
+
+              <div class="news-block-two-col-info">
+                <div class="news-block-title mb-3">
+                  <h6>
+                    <a href="news-detail.html" class="news-block-title-link">The Passionist Mission</a>
+                  </h6>
+				  <p style="color:grey" class="bi-calendar4 custom-icon me-1">September 10, 2024</p>
+                </div>
+              </div>
+            </div>
+			
 <!--            <div class="category-block d-flex flex-column">
               <h5 class="mb-3">Categories</h5>
               <a href="#" class="category-block-link">
@@ -354,17 +364,12 @@
       </div>
     </section>
 
-    </main>
-
-
-
-
-    <!--FOOTER SECTION -->
+  <!--FOOTER SECTION -->
   <footer class="site-footer">
     <div class="container-sm">
       <div class="row">
         <div class="col-lg-3 col-12 mb-4">
-          <img src="images/ancop-logo.png" alt="ancop-logo" class="img-fluid logo">
+          <img src="../images/ancop-logo.png" alt="ancop-logo" class="img-fluid logo">
 
         </div>
 
@@ -372,14 +377,17 @@
           <h5 class="site-footer-title mb-3">Quick Links</h5>
           <ul class="footer-menu">
             <li class="footer-menu-item">
-              <a href="#section-2" style="color:grey">Our Story</a>
+              <a href="#section-2" style="color:grey">Who We Are</a>
+            </li>
+			            <li class="footer-menu-item">
+              <a href="#section-2" style="color:grey">What We Do</a>
             </li>
             <li class="footer-menu-item">
-              <a href="#section-3" style="color:grey">News</a>
+              <a href="#section-3" style="color:grey">Blog</a>
 
             </li>
             <li class="footer-menu-item">
-              <a href="#section-3" style="color:grey">Causes</a>
+              <a href="#section-3" style="color:grey">Our Causes</a>
 
             </li>
             <li class="footer-menu-item">
@@ -390,9 +398,11 @@
               <a href="#section-5" style="color:grey">Partner with us</a>
 
             </li>
-
+			<li class="footer-menu-item">
+				<a href="#" class="custom-btn btn mt-3">Donate</a>
+				</li>
           </ul>
-
+         
         </div>
 
         <div class="col-lg-3 col-md-6 col-12 mx-auto">
@@ -401,15 +411,15 @@
             <i class="bi-telephone me-2"></i>
             <a href="#">441-1234567</a>
           </p>
-          <p class="d-flex text-white-mb-2">
+  <!--         <p class="d-flex text-white-mb-2">
             <i class="bi-envelope me-2"></i>
-            <a href="#">caseweb84729@gmail.com</a>
-          </p>
+           <a href="#">example@gmail.com</a> 
+          </p>-->
           <p class="d-flex text-white-mb-2">
             <i class="bi-geo-alt me-2"></i>
             Hamilton, Bermuda
           </p>
-          <a href="#" class="custom-btn btn mt-3">Get Direction</a>
+
 
         </div>
       </div>
@@ -444,14 +454,20 @@
   </footer>
 
 
-    <!-- JAVASCRIPT FILES -->
-    <script src="js/script.js"></script>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jquery.sticky.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/click-scroll.js"></script>
-    <script src="js/counter.js"></script>
-    <script src="js/custom.js"></script>
+
+
+
+  <!-- JAVASCRIPT FILES -->
+  <script src="../js/script.js"></script>
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/jquery.sticky.js"></script>
+  <script src="../js/bootstrap.bundle.min.js"></script>
+  <script src="../js/click-scroll.js"></script>
+  <script src="../js/counter.js"></script>
+  <script src="../js/custom.js"></script>
+
+
+
 </body>
 
 </html>
