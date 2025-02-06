@@ -864,6 +864,24 @@ hr.causes {
   border-radius: 1px;
 }
 
+.button-ancopwalk {
+  background-color: #157f1f;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button-ancopwalk .text:hover {
+	color: white;
+}
+	
+
                                                    /*    SECTION LATEST NEWS */
 
 .news-block-top {
