@@ -873,13 +873,16 @@ hr.causes {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
   cursor: pointer;
+
 }
 
-.button-ancopwalk .text:hover {
-	color: white;
+a.change {
+  --primary-color: white;
+  color: var(--primary-color);
 }
+
+
 	
 
                                                    /*    SECTION LATEST NEWS */
