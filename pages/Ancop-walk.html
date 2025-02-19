@@ -11,6 +11,82 @@
   <link rel="stylesheet" href="../css/bootstrap-icons.css" type="text/css">
 
   <link rel="shortcut icon" type="image/png" href="../favicon-32x32.png">
+  
+  <!--Additional CSS for gallery-->
+<style>
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 10px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+</style>
 
 </head>
 
@@ -72,7 +148,7 @@
             <a class="nav-link" href="../index.html #section-3">What We Do</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../index.html #section-4">Blog</a>
+            <a class="nav-link" href="../index.html #section-4">News</a>
           </li>
  <!--         <li class="nav-item dropdown">
             <a class="nav-link click-scroll dropdown-toggle inactive" href="#section-5" id="navbarLightDropdownMenuLink"
@@ -100,7 +176,7 @@
  
  <main>
 
-    <!--Blog -->
+    <!--News -->
 
     <section class="section-padding news-section" id="section-5">
       <div class="container-sm">
@@ -111,137 +187,80 @@
 
           <div class="col-lg-6 col-12">
             <div class="news-block">
-              <div class="news-block-top">
+ 
+				<div>
+                  <img class="news-iamge img-fluid" src="../images/ancop-walk.webp"
+                    alt="ancop-walk">
+				</div>
+				
+				<div class="news-block-info">
+                
+				<div class="news-block-body"><br>
+                  <p style="color:grey">The ANCOP Walk is an annual global initiative organized by ANCOP aimed at generating funds for its diverse programs, which encompass SHELTER, CHILD SPONSORSHIP, and HUMANITARIAN RELIEF. This event exemplifies faith in action. Participants, including individuals and groups, engage in the walk, contributing donations and assisting in fundraising efforts for ANCOP. People of all ages - children, youth, adults, and seniors—come together to advocate for the underprivileged and encourage public support for the cause. Participants in the ANCOP Walk are require to register and pay registration fee. A portion of this fee, specifically $5, is designated to support the St. Vincent de Paul Society's outreach efforts to assist the poor.</p>
+                </div>
 
-                  <img class="news-iamge img-fluid" src="../images/news/ancop-victor-scott-bench-painting.jpg"
+				</div>
+
+				<div>
+                  <img class="news-iamge img-fluid" src="../images/ancop-walk-poster.jpg"
                     alt="ancop-victor-scott-bench-painting">
-
-                <div class="news-category-block">
-                  <a href="posts/01042025-painting-victor-scott.html">ANCOP Walk</p>
-		       
-                  
- <!--                 <a href="#" class="category-block-link">
-
-                    Victor Scott Primary School
-
-                  </a> -->
+				</div>
+				
+				<div class="news-block-info">
+                
+				<div class="news-block-body"><br>
+                  <p style="color:grey">The ANCOP Walk is an annual global initiative organized by ANCOP aimed at generating funds for its diverse programs, which encompass SHELTER, CHILD SPONSORSHIP, and HUMANITARIAN RELIEF. This event exemplifies faith in action. Participants, including individuals and groups, engage in the walk, contributing donations and assisting in fundraising efforts for ANCOP. People of all ages - children, youth, adults, and seniors—come together to advocate for the underprivileged and encourage public support for the cause. Participants in the ANCOP Walk are require to register and pay registration fee. A portion of this fee, specifically $5, is designated to support the St. Vincent de Paul Society's outreach efforts to assist the poor.</p>
                 </div>
-              </div>
-              <div class="news-block-info">
-<!--               <div class="d-flex mt-2">
-               <div class="news-block-date">
-                    <p>
-                      <i class="bi-calendar4 custom-icon me-1"></i>
+				</div>
 
-                      January 04, 2025
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="../images/news/housing-program1.webp" style="width:100%">
+  </div>
 
-                    </p>
-                  </div>
-                  <div class="news-block-author mx-5">
-                    <p>
-                      <i class="bi-person custom-icon me-1"></i>
-                      By ANCOP
-                    </p>
-                  </div>
-                  <div class="news-block-comment">
-                    <p>
-                      <i class="bi-chat-left custom-icon me-1"></i>
-                      Comments
-                    </p>
-                  </div>
-                </div> -->
-                <div class="news-block-title mb-2">
-                    <a href="../posts/01042025-painting-victor-scott.html" class="news-block-title-link">ANCOP Walk
-                  </h4>
-				  <h4>
-                </div>
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="../images/news/housing-program2.webp" style="width:100%">
+  </div>
 
-                <div class="news-block-body">
-				<p style="color:grey" class="bi-calendar4 custom-icon me-1"> January 04, 2025</p>
-                  <p style="color:grey">The ANCOP Walk is an annual global initiative organized by ANCOP aimed at generating 
-				  funds for its diverse programs, which encompass SHELTER, CHILD SPONSORSHIP, and HUMANITARIAN RELIEF. This event 
-				  exemplifies faith in action. Participants, including individuals and groups, engage in the walk, contributing 
-				  donations and assisting in fundraising efforts for ANCOP. People of all ages - children, youth, adults, and seniors—come 
-				  together to advocate for the underprivileged and encourage public support for the cause.<br><br>
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="../images/news/housing-program3.webp" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="../images/news/housing-program1.webp" style="width:100%">
+  </div>
 
-					Participants in the ANCOP Walk are require to register and pay registration fee. A portion of this fee, specifically $5, 
-					is designated to support the St. Vincent de Paul Society's outreach efforts to assist the poor.<br><br><br></p>
-			
-                </div>
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="../images/news/housing-program2.webp" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="../images/news/housing-program3.webp" style="width:100%">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
 
-              </div>
+          
+				<div class="news-block-body"><br>
+                  <p style="color:grey">The ANCOP Walk is an annual global initiative organized by ANCOP aimed at generating funds for its diverse programs, which encompass SHELTER, CHILD SPONSORSHIP, and HUMANITARIAN RELIEF. This event exemplifies faith in action. Participants, including individuals and groups, engage in the walk, contributing donations and assisting in fundraising efforts for ANCOP. People of all ages - children, youth, adults, and seniors—come together to advocate for the underprivileged and encourage public support for the cause. Participants in the ANCOP Walk are require to register and pay registration fee. A portion of this fee, specifically $5, is designated to support the St. Vincent de Paul Society's outreach efforts to assist the poor.</p>
+				</div>
+
+		  </div>
 
             </div>
 
-            <div class="news-block">
-              <div class="news-block-top">
-                <a href="news-detail.html">
-                  <img class="news-iamge img-fluid" src="../images/news/ancop-volunteers-pga-tour-2024.jpg"
-                    alt="medium-shot-people-collecting-foodstuff">
-                </a>
-                <div class="news-category-block">
-                  <p>ANCOP Volunteers at the 2024 PGA Tour</p>
-  
-  <!--                <a href="#" class="category-block-link">
 
-                    Donation,
-
-                  </a>
-                  <a href="#" class="category-block-link">
-                    Caring
-                  </a>-->
-                </div>
-              </div>
-              <div class="news-block-info">
- <!--               <div class="d-flex mt-2">
-                  <div class="news-block-date">
-                    <p>
-                      <i class="bi-calendar4 custom-icon me-1"></i>
-
-                      November 16, 2024
-
-                    </p>
-                  </div>
-                  <div class="news-block-author mx-5">
-                    <p>
-                      <i class="bi-person custom-icon me-1"></i>
-                      By ANCOP
-                    </p>
-                  </div>
-                  <div class="news-block-comment">
-                    <p>
-                      <i class="bi-chat-left custom-icon me-1"></i>
-                      Comments
-                    </p>
-                  </div>
-                </div> -->
-                <div class="news-block-title mb-2">
-                  <h4>
-                    <a href="news-detail.html" class="news-block-title-link">ANCOP volunteers at the Butterfield Bermuda Championship, PGA Tour 2024</a>
-                  </h4>
-                </div>
-
-                <div class="news-block-body">
-				<p style="color:grey" class="bi-calendar4 custom-icon me-1"> November 16, 2024</p>
-                  <p style="color:grey">Volunteering at the PGA Tour provides ANCOP with the oppurtunity to give back to the community,
-				   foster new relationships, and be part of a world class sporting event. The volunteers' efforts are instrumental
-				   in the tournament's success and in raising funds for various charity programs of ANCOP</p>
-
-                </div>
-
-              </div>
-
-            </div>
           </div>
 
          <div class="col-lg-4 col-12 mx-auto">  
-  <!--          <form action="#" class="custom-form search-form" method="get">
-              <input type="search" class="form-control" name="search" id="search" placeholder="Search"
-                aria-label="search">
-              <button type="submit" class="form-control">
-                <i class="bi-search"></i>
-              </button>
-            </form> -->
+
             <h5 class="mt-5 mb-3">Recent news</h5>
             <div class="news-block news-block-two-col mt-4 d-flex">
               <div class="news-block-two-col-image-wrap">
@@ -257,7 +276,7 @@
                   <h5>
                     <a href="news-detail.html" class="news-block-title-link">ANCOP Walk 2024</a>
                   </h5>
-				  <p style="color:grey" class="bi-calendar4 custom-icon me-1"> January 04, 2025</p>
+		
                 </div>
 
               </div>
@@ -352,12 +371,14 @@
       </div>
     </section>
 
+</main>	
+
   <!--FOOTER SECTION -->
   <footer class="site-footer">
     <div class="container-sm">
       <div class="row">
         <div class="col-lg-3 col-12 mb-4">
-          <img src="images/ancop-logo.png" alt="ancop-logo" class="img-fluid logo">
+          <img src="../images/ancop-logo.png" alt="ancop-logo" class="img-fluid logo">
 
         </div>
 
@@ -371,7 +392,7 @@
               <a href="../index.html #section-2" style="color:grey">What We Do</a>
             </li>
             <li class="footer-menu-item">
-              <a href="../index.html #section-3" style="color:grey">Blog</a>
+              <a href="../index.html #section-3" style="color:grey">News</a>
 
             </li>
             <li class="footer-menu-item">
@@ -453,6 +474,37 @@
   <script src="js/click-scroll.js"></script>
   <script src="js/counter.js"></script>
   <script src="js/custom.js"></script>
+  
+  <script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
 
 
 
