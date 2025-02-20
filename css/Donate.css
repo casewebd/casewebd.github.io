@@ -311,7 +311,7 @@ h5 {
                                                        /* SECTION DONATE */
 
 .donate-section{
-    background-image: url(../images/slide/school-children.jpg);
+    background-image: url(../images/slide/school-children.webp);
     padding-bottom: 300px;
     padding-top: 250px;
     background-repeat: no-repeat;
@@ -322,7 +322,7 @@ h5 {
 }
 
 .donate-section .section-overlay{
-    background: rgba(0, 0, 0, 0.35);
+    background: rgba(0, 0, 0, 0.50);
     position: absolute;
     width: 100%;
     height: 100%;
